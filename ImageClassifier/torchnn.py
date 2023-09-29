@@ -87,4 +87,4 @@ if __name__ == "__main__":
     with open("model_state.pt", "wb") as f:
         save(clf.state_dict(), f)
 
-    # predict()
+    predict()
