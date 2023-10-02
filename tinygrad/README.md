@@ -7,7 +7,7 @@
 - no GPU / cuda : runs on CPU
 
 ```python
-from autograd.engine import Value
+from tinygrad.engine import Value
 
 a = Value(-4.0)
 b = Value(2.0)

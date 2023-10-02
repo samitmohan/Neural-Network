@@ -1,6 +1,6 @@
 import random
 from typing import Any
-from autograd.engine import Value
+from tinygrad.engine import Value
 
 
 class Base:

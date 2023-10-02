@@ -1,5 +1,5 @@
 import torch
-from autograd.engine import Value
+from tinygrad.engine import Value
 
 
 def test_check():
@@ -9,7 +9,7 @@ def test_check():
     d = (b * b).tanh()
     e = d + c + c * a
     e.backward()
-    x_autograd, y_autograd = a, e
+    x_tinygrad, y_tinygrad = a, e
 
     # Doing the same with pytorch
     a = torch.Tensor([-4.0]).double()
@@ -22,9 +22,9 @@ def test_check():
     x_pytorch, y_pytorch = a, e
 
     # forward pass
-    assert y_autograd.data == y_pytorch.data.item()
+    assert y_tinygrad.data == y_pytorch.data.item()
     # backward pass
-    assert x_autograd.grad == x_pytorch.grad.item()
+    assert x_tinygrad.grad == x_pytorch.grad.item()
 
 
 print(test_check())
