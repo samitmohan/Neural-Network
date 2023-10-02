@@ -27,12 +27,6 @@ print(f'{a.grad:.4f}') # prints 138.8338, i.e. the numerical value of dg/da
 print(f'{b.grad:.4f}') # prints 645.5773, i.e. the numerical value of dg/db
 ```
 
-## Installation
-
-```bash
-pip install micrograd
-```
-
 ## TODO
 
 - Figure out how to show data / memory / flops being used for neural network in kernel = .memory_usage()
