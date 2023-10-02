@@ -29,6 +29,7 @@ One of the main advantages of Adam is its ability to handle noisy and sparse
 datasets, which are common in real-world applications
 
 # Gradient Descent
+
 Gradient descent is an optimization algorithm commonly used in machine learning
 and deep learning to minimize a cost or loss function. Its primary purpose is to
 find the optimal parameters (weights and biases) for a model that minimizes the
@@ -36,7 +37,7 @@ error between predicted and actual values.
 
 Steps -:
 Calculate Gradient (derivative) of cost function with respect to each parameter.
-update_parameter -= learning_rate * gradient(update_parameter)
+update_parameter -= learning_rate \* gradient(update_parameter)
 learning rate = hyper parameter that controls size of each step.
 Repeat these two steps until cost function converges to minimum value
 
@@ -47,6 +48,7 @@ small batch of data) to estimate the gradient
 Hence Adam is an extension to GD algorithm
 
 ## NN Layers
+
 Input Layer : accepts raw data
 Conv2D Layer : process grid like data (images) -> extract features from input
 data (filters)
@@ -64,8 +66,12 @@ Batch Normalization : normalize input to a layer in order to stabilize
 Softmax : Computes probabilities of each class : sum upto 1.
 
 ## Cross Entropy
+
 "cross-entropy" is a commonly used loss function in machine learning and deep
 learning, particularly for classification tasks. It measures the dissimilarity
 or "distance" between the predicted probabilities (or scores) and the true
 labels of the data
 
+### Learnings from Neural Network + Deep Learning chapter from Data Science for Python
+
+---

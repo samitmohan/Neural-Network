@@ -1,3 +1,10 @@
+# Learnings
+
+- What are neural nets? Math expressions that take input as data (weights, parameters) : forward pass -> loss function (measures accuracy of predictions : low when network is behaving well) -> backpropagation to get gradient and tune parameters to minimise loss function (this is called gradient descent)
+- All of this is available in PyTorch, but how to do this manually? .
+
+### TensorFlow
+
 - In TensorFlow, tensors are like arrays, building blocks for rep + manipulating data. {can hold any data type, immutable, multi-dim, graphs}
 
 scalar_tensor = tensorflow.constant(42, dtype=tf.int32)
