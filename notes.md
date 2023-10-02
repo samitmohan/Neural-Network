@@ -72,6 +72,8 @@ learning, particularly for classification tasks. It measures the dissimilarity
 or "distance" between the predicted probabilities (or scores) and the true
 labels of the data
 
-### Learnings from Neural Network + Deep Learning chapter from Data Science for Python
+#### Learnings from Neural Network + Deep Learning chapter from Data Science for Python (basics)
 
----
+Neural Network -:
+
+- Perceptrons
