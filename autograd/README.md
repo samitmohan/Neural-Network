@@ -36,3 +36,5 @@ pip install micrograd
 ## TODO
 
 - Figure out how to show data / memory / flops being used for neural network in kernel = .memory_usage()
+
+inspired by https://github.com/karpathy/ and https://github.com/tinygrad/tinygrad
