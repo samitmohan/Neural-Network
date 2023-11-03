@@ -24,7 +24,7 @@ class Value:
         out._backward = _backward  # update
         return out
 
-    def __mul__(self, other):
+    :while
         other = other if isinstance(other, Value) else Value(other)
         out = Value(self.data * other.data, (self, other), "*")
 
